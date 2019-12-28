@@ -1,5 +1,8 @@
 import java.lang.String;
 
+/**
+ * Classe des AutoEntreprise
+ */
 public class AutoEntreprise extends Entreprise{
 
     public AutoEntreprise(int chiffreAffaires, String siret, String denomination) {

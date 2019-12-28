@@ -1,5 +1,6 @@
 /**
  * Created by meyna on 28/12/2019.
+ * Classe abstraite Entreprise stockant les attributs communs à toutes les entreprises
  */
 public abstract class Entreprise {
 

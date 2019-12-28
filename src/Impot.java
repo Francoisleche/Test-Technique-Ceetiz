@@ -1,12 +1,12 @@
 /**
  * Created by meyna on 28/12/2019.
+ * Classe de test rapide permettant de calculer les impots d'une entreprise
  */
 public class Impot {
 
     public static void main(String[] args) {
 
-
-        if(args.length==3){//java Impot 123 monentreprise 155000
+        if(args.length==3){
             AutoEntreprise auto = new AutoEntreprise(Integer.parseInt(args[2]),args[0],args[1]);
             System.out.println(auto.calculerImpot());
         }else if(args.length==4){

@@ -1,5 +1,7 @@
 import java.lang.String;
-
+/**
+ * Classe des SAS
+ */
 public class Sas extends Entreprise {
 
     private String adresse;
